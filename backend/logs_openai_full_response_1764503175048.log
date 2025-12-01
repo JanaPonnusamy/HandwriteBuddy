@@ -1,0 +1,69 @@
+{
+  "id": "resp_074a8c5df8df2ec200692c2e7c2a948192b18fc7f6ceaf64a3",
+  "object": "response",
+  "created_at": 1764503165,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-mini-2024-07-18",
+  "output": [
+    {
+      "id": "msg_074a8c5df8df2ec200692c2e7fd95c8192b5a4be5f43f84564",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"neatness\": {\n    \"score\": 6,\n    \"details\": [\"Some letters are inconsistent in size.\", \"Minor smudges present.\", \"Lines are generally straight.\", \"Spacing between lines is adequate.\", \"Overall somewhat legible.\"],\n    \"improvement\": \"Practice consistent letter height and spacing.\"\n  },\n  \"spacing\": {\n    \"score\": 7,\n    \"details\": [\"Wide spacing between some words.\", \"Lines are not overcrowded.\", \"Good separation between list items.\", \"Inconsistent spacing in individual letters.\", \"Some words appear crammed.\"],\n    \"improvement\": \"Maintain uniform spacing between letters.\"\n  },\n  \"slant\": {\n    \"score\": 5,\n    \"details\": [\"Some letters slant left, others right.\", \"Inconsistent overall orientation.\", \"Not all letters maintain a uniform slant.\", \"Some words appear upright.\", \"General trend towards angled writing.\"],\n    \"improvement\": \"Focus on maintaining a consistent slant.\"\n  },\n  \"consistency\": {\n    \"score\": 6,\n    \"details\": [\"Alternating sizes among letters.\", \"Variability in letter formation.\", \"Inconsistent use of cursive and print styles.\", \"Overall legibility varies by word.\", \"Some sections are clearer than others.\"],\n    \"improvement\": \"Adopt a uniform writing style.\"\n  },\n  \"letter_consistency\": {\n    \"score\": 5,\n    \"details\": [\"Some letters are well-formed, others poorly formed.\", \"Variations in lowercase and uppercase forms.\", \"Inconsistent loops and curves.\", \"Some letters are not closed properly.\", \"A few letters are entirely different in style.\"],\n    \"improvement\": \"Practice each letter's form for consistency.\"\n  },\n  \"overall_comment\": \"The handwriting shows moderate legibility but needs improvement in consistency and neatness.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25751,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 387,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 26138
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\n  \"neatness\": {\n    \"score\": 6,\n    \"details\": [\"Some letters are inconsistent in size.\", \"Minor smudges present.\", \"Lines are generally straight.\", \"Spacing between lines is adequate.\", \"Overall somewhat legible.\"],\n    \"improvement\": \"Practice consistent letter height and spacing.\"\n  },\n  \"spacing\": {\n    \"score\": 7,\n    \"details\": [\"Wide spacing between some words.\", \"Lines are not overcrowded.\", \"Good separation between list items.\", \"Inconsistent spacing in individual letters.\", \"Some words appear crammed.\"],\n    \"improvement\": \"Maintain uniform spacing between letters.\"\n  },\n  \"slant\": {\n    \"score\": 5,\n    \"details\": [\"Some letters slant left, others right.\", \"Inconsistent overall orientation.\", \"Not all letters maintain a uniform slant.\", \"Some words appear upright.\", \"General trend towards angled writing.\"],\n    \"improvement\": \"Focus on maintaining a consistent slant.\"\n  },\n  \"consistency\": {\n    \"score\": 6,\n    \"details\": [\"Alternating sizes among letters.\", \"Variability in letter formation.\", \"Inconsistent use of cursive and print styles.\", \"Overall legibility varies by word.\", \"Some sections are clearer than others.\"],\n    \"improvement\": \"Adopt a uniform writing style.\"\n  },\n  \"letter_consistency\": {\n    \"score\": 5,\n    \"details\": [\"Some letters are well-formed, others poorly formed.\", \"Variations in lowercase and uppercase forms.\", \"Inconsistent loops and curves.\", \"Some letters are not closed properly.\", \"A few letters are entirely different in style.\"],\n    \"improvement\": \"Practice each letter's form for consistency.\"\n  },\n  \"overall_comment\": \"The handwriting shows moderate legibility but needs improvement in consistency and neatness.\"\n}"
+}

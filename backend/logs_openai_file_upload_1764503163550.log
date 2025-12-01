@@ -1,0 +1,11 @@
+{
+  "object": "file",
+  "id": "file-4mXhwHknFxjGjEFBhpsV2n",
+  "purpose": "vision",
+  "filename": "compressed_1764503161097.jpg",
+  "bytes": 183527,
+  "created_at": 1764503162,
+  "expires_at": null,
+  "status": "processed",
+  "status_details": null
+}
